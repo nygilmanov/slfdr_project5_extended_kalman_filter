@@ -96,6 +96,15 @@ More information is only accessible by people who are already enrolled in Term 2
 of CarND. If you are enrolled, see the Project Resources page in the classroom
 for instructions and the project rubric.
 
+
+![Model](./IMGS/RLD1.png)
+![Model](./IMGS/RLD2.png)
+![Model](./IMGS/R1.png)
+![Model](./IMGS/R2.png)
+![Model](./IMGS/L1.png)
+![Model](./IMGS/L2.png)
+
+
 ## Hints and Tips!
 
 * You don't have to follow this directory structure, but if you do, your work
