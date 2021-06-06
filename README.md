@@ -127,7 +127,7 @@ The predict operation could be found at [src/FusionEKF.cpp](./src/FusionEKF.cpp#
 Different type of measurements are handled in two places in [src/FusionEKF.cpp](src/FusionEKF.cpp#L62):
 
 - For the first measurement from line 62 to line 118.
-- For the update part from line 158 to 179.
+- For the preduct/update part from line 158 to 179.
 
 # Code Efficiency
 
