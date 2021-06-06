@@ -32,7 +32,10 @@ In order to install the necessary libraries, use the install-mac.sh.
 From the build directory, execute `../ExtendedKF.`. The output should be:
 
 
-
+```sh
+Listening to port 4567
+Connected!!!
+```
 
 
 
