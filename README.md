@@ -16,7 +16,7 @@ The project has the following dependencies (from Udacity's seed project):
 - gcc/g++ >= 5.4
 - Udacity's simulator.
 
-For instructions on how to install these components on different operating systems, please, visit Udacity's seed project. As this particular implementation was done on Mac OS, the rest of this documentation will be focused on Mac OS. I am sorry to be that restrictive.
+For instructions on how to install these components on different operating systems, please, visit [Udacity's seed project](https://github.com/udacity/CarND-Extended-Kalman-Filter-Project). As this particular implementation was done on Mac OS, the rest of this documentation will be focused on Mac OS. I am sorry to be that restrictive.
 
 In order to install the necessary libraries, use the install-mac.sh.
 ## Basic Build Instructions
