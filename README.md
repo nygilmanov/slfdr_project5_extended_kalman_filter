@@ -81,8 +81,6 @@ Here is the simulator final state after running the EKL with 2 datasets and vari
 
 ## Radar measurements
 
-
-
 | RMSE | Dataset 1 | Dataset 2 |
 |------|-----------|-----------|
 | P x  |  11.1947   |  0.2709   |
