@@ -56,9 +56,11 @@ The order the first measurement is sent to the EKF.
 - On dataset 1, the LIDAR measurement is sent first. 
 - On the dataset 2, the RADAR measurement is sent first.
 
-Here is the simulator final state after running the EKL with dataset 1:
+Here is the simulator final state after running the EKL with 2 datasets and various combinations of measurments:
 
-
+- Lidar+Radar
+- Radar only
+- Lidar only
 
 
 
