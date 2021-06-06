@@ -49,6 +49,16 @@ Code compiles without any errors
 ### px, py, vx, vy output coordinates must have an RMSE <= [.11, .11, 0.52, 0.52] when using the file: "obj_pose-laser-radar-synthetic-input.txt which is the same data file the simulator uses for Dataset 1"
 
 
+The simulator provides two datasets. The difference between them are:
+
+The direction the car (the object) is moving.
+The order the first measurement is sent to the EKF. On dataset 1, the LIDAR measurement is sent first. On the dataset 2, the RADAR measurement is sent first.
+Here is the simulator final state after running the EKL with dataset 1:
+
+
+
+
+
 # The  results of the  various runs 
 
 ## Radar&Lidar measurements
