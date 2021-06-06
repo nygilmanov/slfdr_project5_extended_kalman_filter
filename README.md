@@ -52,7 +52,10 @@ Code compiles without any errors
 The simulator provides two datasets. The difference between them are:
 
 The direction the car (the object) is moving.
-The order the first measurement is sent to the EKF. On dataset 1, the LIDAR measurement is sent first. On the dataset 2, the RADAR measurement is sent first.
+The order the first measurement is sent to the EKF. 
+- On dataset 1, the LIDAR measurement is sent first. 
+- On the dataset 2, the RADAR measurement is sent first.
+
 Here is the simulator final state after running the EKL with dataset 1:
 
 
