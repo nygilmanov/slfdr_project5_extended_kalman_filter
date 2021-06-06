@@ -99,7 +99,7 @@ The Kalman filter implementation can be found [kalman_filter.cpp](src/kalman_fil
 
 
 ## Your Kalman Filter algorithm handles the first measurements appropriately.
-The first measurement is handled at   [src/FusionEKF.cpp](src/FusionEKF.cpp#L61)   src/FusionEKF.cpp from line 61 to line 107.
+The first measurement is handled at   [src/FusionEKF.cpp](src/FusionEKF.cpp#L61)   src/FusionEKF.cpp from line 62 to line 118.
 
 
 # Your Kalman Filter algorithm first predicts then updates.
