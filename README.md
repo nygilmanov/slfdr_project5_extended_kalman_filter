@@ -40,7 +40,7 @@ Connected!!!
 
 
 
-## Project Instructions and Rubric
+## [rubric points](https://review.udacity.com/#!/rubrics/748/view) 
 
 Note: regardless of the changes you make, your project must be buildable using
 cmake and make!
