@@ -107,6 +107,12 @@ Here is the simulator final state after running the EKL with 2 datasets and vari
 ![Model](./IMGS/LD2.png)
 
 
+The video wuth the process can be reviewed here
+
+https://youtu.be/ASC5jLJrvHo
+
+
+
 ## Following the Correct Algorithm
 
 ### Your Sensor Fusion algorithm follows the general processing flow as taught in the preceding lessons.
