@@ -117,7 +117,7 @@ Different type of measurements are handled in two places in [src/FusionEKF.cpp](
 
 ## Your algorithm should avoid unnecessary calculations.
 
-An example of this calculation optimization is when the Q matrix is calculated [src/FusionEKF.cpp](src/FusionEKF.cpp#L141) line 135 to line 144.
+An example of this calculation optimization is when the Q matrix is calculated [src/FusionEKF.cpp](src/FusionEKF.cpp#L142) line 144 to line 156.
 
 
 
