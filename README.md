@@ -53,7 +53,9 @@ Code compiles without any errors
 ### px, py, vx, vy output coordinates must have an RMSE <= [.11, .11, 0.52, 0.52] when using the file: "obj_pose-laser-radar-synthetic-input.txt which is the same data file the simulator uses for Dataset 1"
 
 
-#### Radar and lidar measurements 
+# The  results of the  various runs 
+
+## Radar&Lidar measurements
 
 | RMSE | Dataset 1 | Dataset 2 |
 |------|-----------|-----------|
@@ -63,7 +65,12 @@ Code compiles without any errors
 | V y  |  0.0404   |  0.4937   |
 
 
-#### Radar  measurements 
+![Model](./IMGS/RLD1.png)
+![Model](./IMGS/RLD2.png)
+
+## Radar measurements
+
+
 
 | RMSE | Dataset 1 | Dataset 2 |
 |------|-----------|-----------|
@@ -73,8 +80,11 @@ Code compiles without any errors
 | V y  |  6.9924   |  0.9227   |
 
 
+![Model](./IMGS/RD1.png)
+![Model](./IMGS/RD2.png)
 
-#### Lidar measurements 
+## Lidar measurements
+
 
 | RMSE | Dataset 1 | Dataset 2 |
 |------|-----------|-----------|
@@ -84,18 +94,6 @@ Code compiles without any errors
 | V y  |  0.5351   |  0.6030   |
 
 
-
-# The  results of the  various runs 
-
-## Radar&Lidar measurements
-![Model](./IMGS/RLD1.png)
-![Model](./IMGS/RLD2.png)
-
-## Radar measurements
-![Model](./IMGS/RD1.png)
-![Model](./IMGS/RD2.png)
-
-## Lidar measurements
 ![Model](./IMGS/LD1.png)
 ![Model](./IMGS/LD2.png)
 
