@@ -41,7 +41,7 @@ Connected!!!
 
 # Compiling
 
-Code compiles without any errors
+The code compiles without any errors
 
 
 ### Accuracy
