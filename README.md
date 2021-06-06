@@ -28,9 +28,8 @@ In order to install the necessary libraries, use the install-mac.sh.
 4. Run it: `./ExtendedKF `
 
 
-
 ## Running the Filter
-From the build directory, execute ./ExtendedKF. The output should be:
+From the build directory, execute `../ExtendedKF.`. The output should be:
 
 
 
