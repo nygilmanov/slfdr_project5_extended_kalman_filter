@@ -3,11 +3,39 @@
 
 #include "Eigen/Dense"
 
+
+
+
+
 class KalmanFilter {
  public:
   /**
    * Constructor
    */
+
+  
+    // state vector
+  Eigen::VectorXd x_;
+
+  // state covariance matrix
+  Eigen::MatrixXd P_;
+
+  // state transition matrix
+  Eigen::MatrixXd F_;
+
+  // process covariance matrix
+  Eigen::MatrixXd Q_;
+
+  // measurement matrix
+  Eigen::MatrixXd H_;
+
+  // measurement covariance matrix
+  Eigen::MatrixXd R_;
+  
+  
+  
+  
+ 
   KalmanFilter();
 
   /**
@@ -45,24 +73,11 @@ class KalmanFilter {
    * @param z The measurement at k+1
    */
   void UpdateEKF(const Eigen::VectorXd &z);
+  
+  void CommonUpdate(const Eigen::VectorXd &y);
+  
 
-  // state vector
-  Eigen::VectorXd x_;
 
-  // state covariance matrix
-  Eigen::MatrixXd P_;
-
-  // state transition matrix
-  Eigen::MatrixXd F_;
-
-  // process covariance matrix
-  Eigen::MatrixXd Q_;
-
-  // measurement matrix
-  Eigen::MatrixXd H_;
-
-  // measurement covariance matrix
-  Eigen::MatrixXd R_;
 };
 
 #endif // KALMAN_FILTER_H_
