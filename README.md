@@ -41,23 +41,61 @@ Connected!!!
 ## [rubric points](https://review.udacity.com/#!/rubrics/748/view) 
 
 
+### Compiling
+
+Code compiles without any errors
+
 [CMackeLists.txt](./CMakeLists.txt) 
 
 
+### Accuracy
+
+### px, py, vx, vy output coordinates must have an RMSE <= [.11, .11, 0.52, 0.52] when using the file: "obj_pose-laser-radar-synthetic-input.txt which is the same data file the simulator uses for Dataset 1"
 
 
-Note: regardless of the changes you make, your project must be buildable using
-cmake and make!
+#### Radar and lidar measurments 
 
-More information is only accessible by people who are already enrolled in Term 2 (three-term version) or Term 1 (two-term version)
-of CarND. If you are enrolled, see the Project Resources page in the classroom
-for instructions and the project rubric.
+| RMSE | Dataset 1 | Dataset 2 |
+|------|-----------|-----------|
+| P x  |  0.0974   |  0.0726   |
+| P y  |  0.0885   |  0.0965   |
+| V x  |  0.4517   |  0.4219   |
+| V y  |  0.0404   |  0.4937   |
 
 
+#### Radar  measurments 
+
+| RMSE | Dataset 1 | Dataset 2 |
+|------|-----------|-----------|
+| P x  |  0.1405   |  0.0732   |
+| P y  |  0.6668   |  0.0963   |
+| V x  |  0.6050   |  0.3813   |
+| V y  |  1.6355   |  0.4782   |
+
+
+
+#### Lidar measurments 
+
+| RMSE | Dataset 1 | Dataset 2 |
+|------|-----------|-----------|
+| P x  |  0.1405   |  0.0732   |
+| P y  |  0.6668   |  0.0963   |
+| V x  |  0.6050   |  0.3813   |
+| V y  |  1.6355   |  0.4782   |
+
+
+
+#### The  results of the  various runs 
+
+##### Radar&Lidar measurmants
 ![Model](./IMGS/RLD1.png)
 ![Model](./IMGS/RLD2.png)
+
+##### Radar measurments
 ![Model](./IMGS/RD1.png)
 ![Model](./IMGS/RD2.png)
+
+##### Lidar measurments
 ![Model](./IMGS/LD1.png)
 ![Model](./IMGS/LD2.png)
 
