@@ -99,10 +99,10 @@ for instructions and the project rubric.
 
 ![Model](./IMGS/RLD1.png)
 ![Model](./IMGS/RLD2.png)
-![Model](./IMGS/R1.png)
-![Model](./IMGS/R2.png)
-![Model](./IMGS/L1.png)
-![Model](./IMGS/L2.png)
+![Model](./IMGS/RD1.png)
+![Model](./IMGS/RD2.png)
+![Model](./IMGS/LD1.png)
+![Model](./IMGS/LD2.png)
 
 
 ## Hints and Tips!
