@@ -38,7 +38,7 @@ Connected!!!
 ```
 
 
-## [rubric points](https://review.udacity.com/#!/rubrics/748/view) 
+## [Rubric points](https://review.udacity.com/#!/rubrics/748/view) 
 
 
 ### Compiling
@@ -53,7 +53,7 @@ Code compiles without any errors
 ### px, py, vx, vy output coordinates must have an RMSE <= [.11, .11, 0.52, 0.52] when using the file: "obj_pose-laser-radar-synthetic-input.txt which is the same data file the simulator uses for Dataset 1"
 
 
-#### Radar and lidar measurments 
+#### Radar and lidar measurements 
 
 | RMSE | Dataset 1 | Dataset 2 |
 |------|-----------|-----------|
@@ -63,39 +63,39 @@ Code compiles without any errors
 | V y  |  0.0404   |  0.4937   |
 
 
-#### Radar  measurments 
+#### Radar  measurements 
 
 | RMSE | Dataset 1 | Dataset 2 |
 |------|-----------|-----------|
-| P x  |  0.1405   |  0.0732   |
-| P y  |  0.6668   |  0.0963   |
-| V x  |  0.6050   |  0.3813   |
-| V y  |  1.6355   |  0.4782   |
+| P x  |  11.1947   |  0.2709   |
+| P y  |  8.1495   |  0.3857   |
+| V x  |  9.1877   |  0.6530   |
+| V y  |  6.9924   |  0.9227   |
 
 
 
-#### Lidar measurments 
+#### Lidar measurements 
 
 | RMSE | Dataset 1 | Dataset 2 |
 |------|-----------|-----------|
-| P x  |  0.1405   |  0.0732   |
-| P y  |  0.6668   |  0.0963   |
-| V x  |  0.6050   |  0.3813   |
-| V y  |  1.6355   |  0.4782   |
+| P x  |  0.1474   |  0.1169   |
+| P y  |  0.1154   |  0.1262   |
+| V x  |  0.6390   |  0.6231   |
+| V y  |  0.5351   |  0.6030   |
 
 
 
-#### The  results of the  various runs 
+# The  results of the  various runs 
 
-##### Radar&Lidar measurmants
+## Radar&Lidar measurements
 ![Model](./IMGS/RLD1.png)
 ![Model](./IMGS/RLD2.png)
 
-##### Radar measurments
+## Radar measurements
 ![Model](./IMGS/RD1.png)
 ![Model](./IMGS/RD2.png)
 
-##### Lidar measurments
+## Lidar measurements
 ![Model](./IMGS/LD1.png)
 ![Model](./IMGS/LD2.png)
 
