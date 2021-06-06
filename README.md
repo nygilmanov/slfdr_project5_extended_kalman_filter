@@ -92,11 +92,32 @@ Code compiles without any errors
 ![Model](./IMGS/LD2.png)
 
 
-# Following the Correct Algorithm
+## Following the Correct Algorithm
 
 Your Sensor Fusion algorithm follows the general processing flow as taught in the preceding lessons.
-The Kalman filter implementation can be found [kalman_filter.cpp](./src/kalman_filter.cpp)     and it is used to predict at src/FusionEKF.cpp line 147 and to update line 159 to 169.
+The Kalman filter implementation can be found [kalman_filter.cpp](src/kalman_filter.cpp)     and it is used to predict at src/FusionEKF.cpp line 147 and to update line 159 to 169.
 
+
+## Your Kalman Filter algorithm handles the first measurements appropriately.
+The first measurement is handled at   [src/FusionEKF.cpp](./src/kalman_filter.cpp#L61)   src/FusionEKF.cpp from line 61 to line 107.
+
+
+# Your Kalman Filter algorithm first predicts then updates.
+
+The predict operation could be found at [src/FusionEKF.cpp](./src/kalman_filter.cpp#L147) line 147 and the update operation from line 159 to 169 of the same file.
+
+## Your Kalman Filter can handle radar and lidar measurements.
+
+Different type of measurements are handled in two places in [src/FusionEKF.cpp](./src/kalman_filter.cpp):
+
+- For the first measurement from line 61 to line 107.
+- For the update part from line 159 to 169.
+
+# Code Efficiency
+
+## Your algorithm should avoid unnecessary calculations.
+
+An example of this calculation optimization is when the Q matrix is calculated [src/FusionEKF.cpp](./src/kalman_filter.cpp#L141) line 135 to line 144.
 
 
 
