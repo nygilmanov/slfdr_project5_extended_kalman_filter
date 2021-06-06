@@ -108,7 +108,7 @@ The predict operation could be found at [src/FusionEKF.cpp](./src/FusionEKF.cpp#
 
 ## Your Kalman Filter can handle radar and lidar measurements.
 
-Different type of measurements are handled in two places in [src/FusionEKF.cpp](src/FusionEKF.cpp):
+Different type of measurements are handled in two places in [src/FusionEKF.cpp](src/FusionEKF.cpp#L62):
 
 - For the first measurement from line 62 to line 118.
 - For the update part from line 171 to 179.
@@ -117,7 +117,7 @@ Different type of measurements are handled in two places in [src/FusionEKF.cpp](
 
 ## Your algorithm should avoid unnecessary calculations.
 
-An example of this calculation optimization is when the Q matrix is calculated [src/FusionEKF.cpp](./src/kalman_filter.cpp#L141) line 135 to line 144.
+An example of this calculation optimization is when the Q matrix is calculated [src/FusionEKF.cpp](.src/FusionEKF.cpp#L141) line 135 to line 144.
 
 
 
