@@ -95,7 +95,7 @@ Code compiles without any errors
 ## Following the Correct Algorithm
 
 Your Sensor Fusion algorithm follows the general processing flow as taught in the preceding lessons.
-The Kalman filter implementation can be found [kalman_filter.cpp](src/kalman_filter.cpp)     and it is used to predict at src/FusionEKF.cpp line 147 and to update line 159 to 169.
+The Kalman filter implementation can be found [kalman_filter.cpp](src/kalman_filter.cpp)     and it is used to predict at [src/FusionEKF.cpp](./src/kalman_filter.cpp#L147) line 147 and to update line 159 to 169.
 
 
 ## Your Kalman Filter algorithm handles the first measurements appropriately.
