@@ -109,7 +109,8 @@ Here is the simulator final state after running the EKL with 2 datasets and vari
 
 ## Following the Correct Algorithm
 
-Your Sensor Fusion algorithm follows the general processing flow as taught in the preceding lessons.
+### Your Sensor Fusion algorithm follows the general processing flow as taught in the preceding lessons.
+
 The Kalman filter implementation can be found [kalman_filter.cpp](src/kalman_filter.cpp)     and it is used to predict at [src/FusionEKF.cpp](./src/FusionEKF.cpp#L158) line 158 and to update line 171 to 179.
 
 
